@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav {
+    display: none; /* Hide the nav by default */
+}
+
+nav.active {
+    display: block; /* Show the nav when active */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+.profile-image {
+    max-width: 200px;
+    border-radius: 50%; /* Circular image */
+}
+
+section {
+    padding: 2rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
